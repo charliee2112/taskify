@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="DarkGrey">#FFFFFF</color>
+  <color name="Red">#FF0000</color>
+  <color name="Green">#00FF00</color>
+
+  <!--<style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>-->
+  <style name="MyTheme"
+               parent="android:style/Theme.Material.Light.DarkActionBar">
+
+    <!--LISTVIEW SELECTEDITEM COLOR:-->
+    <item name="android:colorPressedHighlight">@android:color/transparent</item>
+    <item name="android:colorLongPressedHighlight">@android:color/transparent</item>
+    <item name="android:colorFocusedHighlight">@android:color/transparent</item>
+    <item name="android:colorActivatedHighlight">@android:color/transparent</item>
+    <item name="android:activatedBackgroundIndicator">@android:color/transparent</item>
+    
+  
+    <item name="android:listSelector">@color/DarkGrey</item>
+    <item name="android:cacheColorHint">@color/DarkGrey</item>
+   
+    <!--LISTVIEW SELECTEDITEM COLOR:
+    <item name="android:colorPressedHighlight">@color/DarkGrey</item>
+    <item name="android:colorLongPressedHighlight">@color/DarkGrey</item>
+    <item name="android:colorFocusedHighlight">@color/DarkGrey</item>
+    <item name="android:colorActivatedHighlight">@color/DarkGrey</item>
+    <item name="android:activatedBackgroundIndicator">@color/DarkGrey</item>
+    
+  
+    <item name="android:listSelector">@color/DarkGrey</item>
+    <item name="android:cacheColorHint">@color/DarkGrey</item>
+    //probar tmb gesturecolor o shadowcolor
+-->
+
+	 </style>
+
+</resources>

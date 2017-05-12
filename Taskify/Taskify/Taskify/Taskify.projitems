@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f79baa30-01cf-4fd0-8eac-147d0487a442</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Taskify</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cell\homeContactCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cell\HomeItemCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ColorDatePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ColorTimePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\NoLineEditor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\NoLineEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item\Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\AddTask.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ContactPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ContentHomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\DetailContactPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\EditTask.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Login.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ReasonLogChange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\stateSelectPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\TasksDetail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\UpdateTask.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ViewContact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Users\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+</Project>
